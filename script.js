@@ -1,7 +1,19 @@
-const greeting = document.getElementById("greeting");
-const changeButton = document.getElementById("changeButton");
-
-changeButton.addEventListener("click", function() {
-	greeting.textContent = "Hello, Dynamic Website!";
-	greeting.style.color = "red";
-});
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Yeeyy! Thank you baby😍</h1>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/wTDG30TB/yes.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+    </div>
+  </body>
+</html>
